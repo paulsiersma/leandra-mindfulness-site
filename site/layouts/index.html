@@ -1,5 +1,7 @@
 {{ define "main" }}
 
-{{ partial "image-and-title" (dict "heading" .Params.title "text" .Params.subtitle "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "image-and-title" .Params }}
+
+{{ partial "text-and-image" (dict "heading" .Params.benefits.heading "text" .Params.benefits.text "benefits" .Params.benefits.bullets) }}
 
 {{ end }}
