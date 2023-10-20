@@ -17,4 +17,7 @@ benefits:
         - short: Algeheel Welzijn
           long: Versterk je immuunsysteem en bevorder je algehele welzijn
 
+values:
+    heading: Aanpak
+
 ---

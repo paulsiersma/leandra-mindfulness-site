@@ -1,0 +1,4 @@
+---
+title: Trainingen
+type: trainingen
+---
