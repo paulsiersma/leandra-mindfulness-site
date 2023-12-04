@@ -1,22 +1,27 @@
 ---
 title: Ontdek Mindfulness
 subtitle: Een weg naar innerlijke rust en balans. 
-text: Ben je op zoek naar rust in een wereld vol hectiek? Wil je beter omgaan met stress, slapeloosheid of een overweldigend gevoel? Ontdek de kracht van Mindfulness-Based Stress Reduction (MBSR) en vind innerlijke rust te midden van het dagelijkse leven.
+text: "Ben je op zoek naar rust te midden van de drukte van de dag? Merk je dat het soms een uitdaging is om een gezonde balans te creëren tussen je werk, gezin en tijd voor jezelf? Heb je last van stress, slapeloosheid of ervaar je een gevoel van ‘geleefd worden’? 
+
+Ontdek dan de kracht van Mindfulness en leer op een andere manier met deze uitdagingen om te gaan om meer innerlijke rust en balans te vinden."
 
 benefits:
     heading: Wat kan mindfulness je brengen?
     bullets:
-        - short: Stress verlichten
-          long: Leer praktische methoden om stress te verminderen en meer ontspanning te ervaren
-        - short: Slaap Beter
-          long: Ontwikkel een rustige geest voor diepe, herstellende slaap
-        - short: Emotionele Balans
-          long: Beheer emoties effectiever en creëer innerlijke harmonie
-        - short: Focus Vergroten
-          long: Verbeter je concentratie en vind helderheid in het moment
-        - short: Algeheel Welzijn
-          long: Versterk je immuunsysteem en bevorder je algehele welzijn
-
+        - short: 
+          long: Je ervaart in de dagelijkse drukte meer rust en ontspanning
+        - short: 
+          long: Je herkent je automatische patronen en stress-signalen
+        - short: 
+          long: Je gaat beter om met stress en stressvolle situaties
+        - short: 
+          long: Je kunt je beter concentreren en handelt effectiever en doelbewuster
+        - short: 
+          long: Je krijgt meer energie
+        - short: 
+          long: Je hebt meer plezier in je werk en leven
+        - short: 
+          long: Je ontwikkelt een milde, vriendelijke en meer accepterende houding t.o.v. jezelf
 values:
     heading: Aanpak
 
