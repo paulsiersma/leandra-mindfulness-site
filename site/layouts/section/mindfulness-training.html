@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image) }}
+
+{{ partial "text-and-image" (dict "heading" .Params.section1.heading "paragraph1" .Params.section1.paragraph1 "paragraph2" .Params.section1.paragraph2  "image" .Params.section1.image) }}
+
+{{ end }}

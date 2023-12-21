@@ -5,14 +5,21 @@
 			<div class="w-80-l ph2-l">
 				<h2 class="f3 b lh-title mb2">{{.heading}}</h2>
 
-				<p>{{.paragraph1 | safeHTML}}</p>
-				<p>{{.paragraph2 | safeHTML}}</p>
-				<p>{{.paragraph3 | safeHTML}}</p>
+				<ul class="list mh3">
+					{{ range .bullets }}
+						<li><span class="b f6">{{.short}}</span><span class="f6">{{.long}}</span></li>
+					{{ end }}
+				</ul>	
 			</div>
 
 			<div class="w-20-l ph1-l flex items-center">
 				<img src="{{.image}}" alt="" class="">
 			</div>
 		</div>
+
+		<div class="tc mt4">
+			<a href="{{.buttonLink}}" class="btn raise highlight">{{.buttonText}}</a>
+		</div>
+
 	</div>
 </div>

@@ -1,7 +1,9 @@
 {{ define "main" }}
 
+{{ partial "jumbotron" (dict "imageUrl" .Params.image) }}
+
 {{ partial "image-and-title" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.benefits.heading "text" .Params.benefits.text "benefits" .Params.benefits.bullets) }}
+{{ partial "bullets-image-button" (dict "heading" .Params.benefits.heading "text" .Params.benefits.text "image" "img/stones-benefits_short.png" "bullets" .Params.benefits.bullets "buttonText" .Params.benefits.buttonText "buttonLink" .Params.benefits.buttonLink) }}
 
 {{ end }}

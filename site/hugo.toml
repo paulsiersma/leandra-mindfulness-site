@@ -10,3 +10,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
 images = ["img/logo_header.png"]
+
+[markup.goldmark.renderer]
+hardWraps = true
