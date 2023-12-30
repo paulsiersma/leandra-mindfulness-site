@@ -1,0 +1,26 @@
+<div class="bg-primary pv4">
+	<div class="grey-4 ph3 mw7 center">
+
+		<div class="flex-l mhn2-l">
+			<div class="w-20-l ph1-l flex items-center">
+				<img src="{{.image}}" alt="" class="">
+			</div>
+
+			<div class="w-80-l ph2-l">
+				<h2 class="f3 b lh-title mb2">{{.heading}}</h2>
+
+				<p class="underline">{{.paragraph1 | safeHTML}}</p>
+
+                <ul class="list mh3">
+					{{ range .bullets }}
+						<li><span class="b f6">{{.short}}: </span><span class="f6">{{.long}}</span></li>
+					{{ end }}
+				</ul>	
+
+				<p class="mt2">{{.paragraph2 | safeHTML}}</p>
+				
+			</div>
+
+		</div>
+	</div>
+</div>

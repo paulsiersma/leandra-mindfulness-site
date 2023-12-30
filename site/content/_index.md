@@ -27,7 +27,4 @@ benefits:
     buttonText: Mindfulness Training
     buttonLink: /mindfulness-training
 
-values:
-    heading: Aanpak
-
 ---
