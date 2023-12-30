@@ -5,9 +5,11 @@
 
 		<img src="{{ .Params.logo }}" alt="" class="db w5 center pv4">
 
-		{{ .Content }}
+		<h4 class="f3 b lh-title mb3 tc">Neem contact op</h4>
 
-		<!-- {{ partial "contact-form" . }} -->
+		<p class="tc">{{ .Params.text | safeHTML}}</p>
+
+		{{ partial "contact-form" . }}
 
 	</div>
 </div>
