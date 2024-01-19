@@ -17,6 +17,10 @@ training1:
         - short: Locatie
           long: De Hooiberg, Nieuwe steeg 20, Leersum
         - short: Kosten
-          long: € 395,- inclusief voorgesprek, werkmap
-    paragraph2: "Voor meer informatie, neem gerust contact op."
+          long: Normaal € 395,- nu als introductie voor € 335,-. Inclusief voorgesprek, werkmap
+
+action:
+    text: "Voor boekingen of meer informatie, neem gerust contact op."
+    buttonText: Contact
+    buttonLink: /contact
 ---

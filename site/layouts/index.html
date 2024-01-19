@@ -4,6 +4,13 @@
 
 {{ partial "image-and-title" .Params }}
 
-{{ partial "bullets-image-button" (dict "heading" .Params.benefits.heading "text" .Params.benefits.text "image" "img/stones-benefits_short.png" "bullets" .Params.benefits.bullets "buttonText" .Params.benefits.buttonText "buttonLink" .Params.benefits.buttonLink) }}
+{{ partial "bullets-image-button" (dict 
+    "heading" .Params.benefits.heading 
+    "text" .Params.benefits.text 
+    "image" "img/stones-benefits_short.png" 
+    "bullets" .Params.benefits.bullets 
+    "buttonText" .Params.benefits.buttonText 
+    "buttonLink" .Params.benefits.buttonLink
+) }}
 
 {{ end }}

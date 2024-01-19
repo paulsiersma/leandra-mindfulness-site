@@ -9,16 +9,17 @@
 			<div class="w-80-l ph2-l">
 				<h2 class="f3 b lh-title mb2">{{.heading}}</h2>
 
-				<p class="underline">{{.paragraph1 | safeHTML}}</p>
-
-                <ul class="list mh3">
-					{{ range .bullets }}
-						<li><span class="b f6">{{.short}}: </span><span class="f6">{{.long}}</span></li>
-					{{ end }}
-				</ul>	
+				<p>{{.paragraph1 | safeHTML}}</p>
+				<p>{{.paragraph2 | safeHTML}}</p>
+				<p>{{.paragraph3 | safeHTML}}</p>
 				
 			</div>
 
 		</div>
+
+		<div class="tc mt4">
+			<a href="{{.buttonLink}}" class="btn raise highlight">{{.buttonText}}</a>
+		</div>
+		
 	</div>
 </div>
